@@ -17,4 +17,5 @@ Améliorations à venir :
 
 - recherche automatique du nombre total de pages
 - récupération du nombre de bien à la vente par conseiller
+- création de visualisations pour mettre en évidence les régions et départements déficitaires en conseillers
   
