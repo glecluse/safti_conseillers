@@ -1,6 +1,6 @@
 Le projet a pour but de récupérer la liste de tous les conseillers du réseau Safti en France.
 
-Celles-ci sont récupérées avec BeautifoulSoup, cleanées avec Pandas et visualisées avec Tableau Public.
+Celles-ci sont récupérées avec BeautifoulSoup, cleanées avec Pandas.
 
 L'exécution du fichier .py génère un fichier excel rassemblant après avoir renseigné le nombre total de pages :
 
