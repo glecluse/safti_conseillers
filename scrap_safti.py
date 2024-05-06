@@ -5,7 +5,6 @@
 
 
 from bs4 import BeautifulSoup
-import csv
 import pandas as pd
 import requests
 
@@ -103,6 +102,7 @@ df = pd.DataFrame({'conseillers' : liste_conseillers, 'telephone' : liste_teleph
 # # Data Cleaning
 
 # ## Suppression des espaces des numéros de téléphone
+# 
 
 # In[80]:
 
@@ -171,6 +171,6 @@ df.isnull().sum()
 # In[65]:
 
 
-df.to_excel('contacts_safti_excel.xlsx')
-print('Le tableaux excel a été correctement créé')
+df.to_csv('contacts_safti_excel.csv')
+print('Le fichier a été créé avec succés')
 
