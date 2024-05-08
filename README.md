@@ -1,10 +1,10 @@
-Rencesement des conseillers Safti en France
+Recensement des conseillers Safti en France
 
 Description du projet :
 
     Ce projet a but éducatif récupère la liste de tous les conseillers du réseau Safti en France.
-    Celles-ci sont récupérées avec BeautifoulSoup, cleanées avec Pandas.
-    L'exécution du fichier .py génère un fichier csv rassemblant après avoir renseigné le nombre total de pages :
+    Celle-ci est récupérée avec BeautifoulSoup, cleanée avec Pandas.
+    L'exécution du fichier .py génère un fichier csv qui, après avoir renseigné le nombre total de pages, rassemble les données suivantes :
 
     - nom
     - prénom
@@ -18,6 +18,6 @@ Description du projet :
 Améliorations à venir :
 
 - recherche automatique du nombre total de pages
-- récupération du nombre de bien à la vente par conseiller
+- récupération du nombre de biens à la vente par conseiller
 - création de visualisations pour mettre en évidence les régions et départements déficitaires en conseillers
   
