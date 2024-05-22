@@ -3,11 +3,6 @@ import streamlit as st
 from genere import generer
 import os
 
-file_path = 'contacts_safti_csv.csv'
-
-if not os.path.exists(file_path):
-    generer()
-
 df = pd.read_csv('contacts_safti_csv.csv')
 df=df.drop(['photo', 'minisite'], axis=1)
 
