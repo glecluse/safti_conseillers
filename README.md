@@ -1,24 +1,33 @@
-Rencesement des conseillers Safti en France
+# Récensement des conseillers Safti en France
 
-Description du projet :
+## Description du projet
 
-    Ce projet a but éducatif récupère la liste de tous les conseillers du réseau Safti en France.
-    Celles-ci sont récupérées avec BeautifoulSoup, cleanées avec Pandas.
-    L'exécution du fichier .py génère un fichier csv rassemblant après avoir renseigné le nombre total de pages :
+Ce projet vise à collecter des informations sur tous les conseillers du réseau Safti en France dans un but éducatif. Les données sont extraites à partir du site web de Safti en utilisant Beautiful Soup pour le scraping et Pandas pour le nettoyage et la manipulation des données.
 
-    - nom
-    - prénom
-    - N° Téléphone
-    - ville
-    - département
-    - région
-    - lien de la photo de profil
-    - lien du mini-site
+## Fonctionnalités
 
-Améliorations à venir :
-
-- récupération du nombre de bien à la vente par conseiller
-- création de visualisations pour mettre en évidence les régions et départements déficitaires en conseillers
-
-  https://safticonseillers-cgtbdznbzzgr9efdkq2z5p.streamlit.app/
+- **Extraction des données** : Les informations des conseillers Safti sont récupérées à partir du site web officiel de Safti.
   
+- **Nettoyage des données** : Les données extraites sont nettoyées pour garantir leur qualité et leur uniformité.
+  
+- **Génération d'un fichier CSV** : Un fichier CSV est généré, contenant les informations suivantes pour chaque conseiller :
+  - Nom
+  - Prénom
+  - Numéro de téléphone
+  - Ville
+  - Département
+  - Région
+  - Lien de la photo de profil
+  - Lien du mini-site
+
+## Comment exécuter le projet
+
+1. Assurez-vous d'avoir Python installé sur votre système.
+2. Clonez ce dépôt sur votre machine.
+3. Installez les dépendances requises
+4. pip install -r requirements.txt
+5. Une fois l'exécution terminée, un fichier CSV nommé `conseillers_safti.csv` sera généré, contenant les données collectées.
+
+## Avertissement
+
+Ce projet est à but éducatif uniquement. Assurez-vous de respecter les conditions d'utilisation du site web de Safti lors de l'utilisation de ce script pour le scraping.
