@@ -20,7 +20,7 @@ Ce projet vise à collecter des informations sur tous les conseillers du réseau
   - Lien de la photo de profil
   - Lien du mini-site
 
-## Comment exécuter le projet
+## Comment exécuter le projet en local
 
 1. Assurez-vous d'avoir Python installé sur votre système.
 2. Clonez ce dépôt sur votre machine.
@@ -31,3 +31,8 @@ Ce projet vise à collecter des informations sur tous les conseillers du réseau
 ## Avertissement
 
 Ce projet est à but éducatif uniquement. Assurez-vous de respecter les conditions d'utilisation du site web de Safti lors de l'utilisation de ce script pour le scraping.
+
+## Lien vers l'application
+
+L'application est hébergée sur le cloud de streamlit, vous pouvez y accéder en suivant ce lien : [lien application safti](https://safticonseillers-cgtbdznbzzgr9efdkq2z5p.streamlit.app/)
+
